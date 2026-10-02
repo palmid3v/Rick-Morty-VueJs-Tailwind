@@ -1,47 +1,73 @@
-# 🧪 Rick & Morty — Vue.js + Tailwind
+# 👽 Rick & Morty — Vue.js + Tailwind
 
-A small frontend practice project that consumes the public Rick and Morty API and renders characters through a Vue.js interface.
+A compact Vue 3 frontend practice project that consumes the public Rick and Morty API and renders characters through reusable components and routing.
 
-## 🎯 Purpose
+> **Current status:** Learning/portfolio experiment focused on API consumption, Vue state, routing, reusable UI, and responsive layouts.
 
-Practice API consumption, Vue 3 composition patterns, routing, reusable components, and responsive UI composition.
+## 🎯 Product scope
 
-## ✨ Current implementation
+- Public API consumption
+- Character listing
+- Reusable character presentation
+- Route-based views
+- Responsive grid UI
+
+## ✨ Current capabilities
 
 - 👽 Character listing from the Rick and Morty API
-- 🧩 Reusable CharacterCard component
-- 🧭 Vue Router with Home and character-oriented views
-- 📱 Responsive grid layout
-- 🎨 Tailwind utility classes
+- 🧩 Reusable CharacterCard
+- 🧭 Vue Router
+- 📱 Responsive layout
+- 🎨 Utility-oriented styling
+- Character-oriented view structure
 
-## 🧱 Stack
+## 🛠️ Technology
 
-- Vue 3
-- Vue Router 4
-- Vue CLI
-- Tailwind-oriented UI
-- Rick and Morty API
+| Technology | Role |
+| --- | --- |
+| Vue 3 | UI |
+| Vue Router 4 | Routing |
+| Vue CLI | Tooling |
+| JavaScript | Application language |
+| Rick and Morty API | External data source |
 
-## 🏗️ Repository structure
+## 🧠 Data flow
 
-```text
+The home view fetches:
+https://rickandmortyapi.com/api/character
+
+Returned data is kept in Vue reactive state and rendered through CharacterCard.vue.
+
+## 📁 Repository structure
+
+~~~text
 Rick-Morty-VueJs-Tailwind/
-├── app/          # Active application
-└── archive/      # Historical material
-```
+├── app/
+│   ├── src/
+│   └── README.md
+├── archive/
+├── CONTEXT.md
+└── README.md
+~~~
 
-The application source lives under `app/src/`.
+## 🚀 Development
 
-## ▶️ Development
-
-```bash
+~~~bash
 cd app
 npm install
 npm run serve
 npm run build
 npm run lint
-```
+~~~
 
-## 📌 Project status
+## 📌 Project boundary
 
-This is a compact learning/portfolio experiment rather than a production application. The current code focuses on the core API-to-UI flow.
+This is a compact practice project, not a production data platform.
+
+## 📚 Project context
+
+See CONTEXT.md for the current implementation map and learning scope.
+
+---
+
+**PALMI-D3V** · Rick & Morty Vue experiment · 2026
