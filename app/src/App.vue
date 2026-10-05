@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <main>
-      <RouterView></RouterView>
+      <RouterView />
     </main>
 
     <footer
@@ -25,9 +25,13 @@
           py-2
           rounded-lg
           bg-cyan-400
-          shadow-lg shadow-lime-500/50
-          border-2 border-black
-          outline outline-1 outline-white
+          shadow-lg
+          shadow-lime-500/50
+          border-2
+          border-black
+          outline
+          outline-1
+          outline-white
         "
       >
         Home
@@ -40,9 +44,13 @@
           py-2
           rounded-lg
           bg-cyan-400
-          shadow-lg shadow-lime-500/50
-          border-2 border-black
-          outline outline-1 outline-white
+          shadow-lg
+          shadow-lime-500/50
+          border-2
+          border-black
+          outline
+          outline-1
+          outline-white
         "
         @click="goUp"
       >
