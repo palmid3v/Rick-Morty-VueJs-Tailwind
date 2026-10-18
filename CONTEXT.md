@@ -41,3 +41,10 @@ npm run lint
 ## Status
 
 Compact learning/portfolio experiment.
+
+
+## Documentation checkpoint — 2026-10-18
+
+README.md fue actualizado para presentación pública en español. Estado: experimento de aprendizaje/portafolio con Vue 3 y API pública; no es una plataforma de producción. Siguiente: comprobar comandos y rutas reales si cambia la aplicación. No añadir funcionalidades no verificadas.
+
+Public README is maintained separately from this internal context. Keep this file focused on implementation facts, source-of-truth paths, validation evidence, known limitations and next steps.
