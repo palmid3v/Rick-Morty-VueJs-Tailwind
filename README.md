@@ -1,73 +1,44 @@
-# 👽 Rick & Morty — Vue.js + Tailwind
+# 👽 Rick & Morty Explorer
 
-A compact Vue 3 frontend practice project that consumes the public Rick and Morty API and renders characters through reusable components and routing.
+> **by PALMI-D3V** · Producto digital en desarrollo continuo.
 
-> **Current status:** Learning/portfolio experiment focused on API consumption, Vue state, routing, reusable UI, and responsive layouts.
+Aplicación de práctica con Vue 3 para explorar personajes del universo de Rick and Morty mediante una API pública. Es un proyecto de aprendizaje y portafolio, no una plataforma de producción.
 
-## 🎯 Product scope
+## ✨ Funcionalidades
 
-- Public API consumption
-- Character listing
-- Reusable character presentation
-- Route-based views
-- Responsive grid UI
+- Consulta de personajes desde Rick and Morty API
+- Componentes reutilizables para tarjetas de personajes
+- Navegación con Vue Router
+- Vistas adaptadas a escritorio y móvil
 
-## ✨ Current capabilities
+## 🛠️ Tecnología
 
-- 👽 Character listing from the Rick and Morty API
-- 🧩 Reusable CharacterCard
-- 🧭 Vue Router
-- 📱 Responsive layout
-- 🎨 Utility-oriented styling
-- Character-oriented view structure
+Vue 3 · Vue Router 4 · JavaScript · Vue CLI
 
-## 🛠️ Technology
+## 🚀 Ejecutar el proyecto
 
-| Technology | Role |
-| --- | --- |
-| Vue 3 | UI |
-| Vue Router 4 | Routing |
-| Vue CLI | Tooling |
-| JavaScript | Application language |
-| Rick and Morty API | External data source |
-
-## 🧠 Data flow
-
-The home view fetches:
-https://rickandmortyapi.com/api/character
-
-Returned data is kept in Vue reactive state and rendered through CharacterCard.vue.
-
-## 📁 Repository structure
-
-~~~text
-Rick-Morty-VueJs-Tailwind/
-├── app/
-│   ├── src/
-│   └── README.md
-├── archive/
-├── CONTEXT.md
-└── README.md
-~~~
-
-## 🚀 Development
-
-~~~bash
+```bash
 cd app
 npm install
 npm run serve
-npm run build
-npm run lint
-~~~
+```
 
-## 📌 Project boundary
+Consulta los documentos del proyecto antes de configurar servicios, credenciales o despliegues. Los comandos pueden variar según el entorno y las dependencias instaladas.
 
-This is a compact practice project, not a production data platform.
+## 📍 Estado del proyecto
 
-## 📚 Project context
+Experimento de aprendizaje / portafolio.
 
-See CONTEXT.md for the current implementation map and learning scope.
+## 📚 Documentación
+
+`CONTEXT.md` y `app/README.md`
+
+La documentación técnica describe la arquitectura, las decisiones, las pruebas y el trabajo pendiente. Las funcionalidades futuras no se consideran implementadas hasta que exista evidencia en el código y validación correspondiente.
+
+## 🤝 Créditos
+
+Diseñado y desarrollado bajo la identidad **PALMI-D3V**.
 
 ---
 
-**PALMI-D3V** · Rick & Morty Vue experiment · 2026
+*Build · Create · Improve · Validate*
